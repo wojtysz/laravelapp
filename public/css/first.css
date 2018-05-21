@@ -1,0 +1,50 @@
+.testdiv
+{
+	color:red;
+	font-size:12px;
+	text-align:center
+}
+
+.py-4{
+	width:100%;
+	min-height:1080px;
+	background-image: url('/images/background.jpg');
+}
+
+#powitanie{
+	color:white;
+	font-size:36px;
+	width:350px;
+	margin:0 auto;
+	margin-top:300px;
+	text-align:center;
+	padding:20px 0px 20px 0px;
+	border-top:solid white 2px;
+	border-bottom:solid white 2px;
+}
+
+#powitanieop
+{
+	position:absolute;
+	opacity:0.3;
+	width:380px;
+	height:265px;
+	margin:40%;
+	margin-top:250px;
+	text-align:center;
+	padding:20px 0px 20px 0px;
+	border-top:solid white 2px;
+	border-bottom:solid white 2px;
+	background-color:white;
+}
+
+ul.ullista
+{
+	position:relative;
+}
+
+ul>li
+{
+	display:inline;
+	padding-right:15px;
+}
