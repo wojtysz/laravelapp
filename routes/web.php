@@ -26,3 +26,5 @@ Route::get('/kontakt', 'KontaktController@show')->name('kontakt');
 Route::get('image-upload',['as'=>'image.upload','uses'=>'ImageUploadController@imageUpload']);
 
 Route::post('image-upload',['as'=>'image.upload.post','uses'=>'ImageUploadController@imageUploadPost']);
+
+Route::resource('posts', 'PostsController');
