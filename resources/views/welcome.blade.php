@@ -97,6 +97,7 @@
                 </div>
                 <div class="nowy">
                     <h1>To jest nowy tekst</h1>
+                
                 </div>
             </div>
         </div>

@@ -1,11 +1,12 @@
-.testdiv
+.linkdiv
 {
 	color:red;
 	font-size:12px;
-	text-align:center
+	text-align:center;
+	padding-top:50px;
 }
 
-.py-4{
+.bck{
 	width:100%;
 	min-height:1080px;
 	background-image: url('/images/background.jpg');
@@ -47,4 +48,10 @@ ul>li
 {
 	display:inline;
 	padding-right:15px;
+}
+
+ul>li a
+{
+	color:white;
+	font-size:18px;
 }
